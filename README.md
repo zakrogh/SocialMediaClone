@@ -2,10 +2,7 @@ STRUCTURE:
 
 header
   nav bar
-    nav nutton
-  search bar
-    search box
-    tweet btn
+  search box
 
 profile
   header
@@ -17,7 +14,7 @@ summary
   sum paragraph
 
 maincontent
-  search box
+  new post
   post
     post image
     post name
