@@ -3,10 +3,8 @@ import React from 'react';
 function NavBar(){
   return (
     <div>
-      <a className="btn btn-primary btn-lg" href="#" role="button">Test Button</a>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">Navbar</a>
-        <button type="button" className="btn btn-primary">Primary</button>
         <span className="navbar-toggler-icon"></span>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
