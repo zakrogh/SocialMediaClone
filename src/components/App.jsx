@@ -9,10 +9,20 @@ function App(){
   return (
     <div>
       <Header/>
-      <Profile/>
-      <Summary/>
-      <MainBody/>
-      <SideBar/>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3">
+            <Profile/>
+            <Summary/>
+          </div>
+          <div className="col-md-3">
+            <MainBody/>
+          </div>
+          <div className="col-md-3">
+            <SideBar/>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

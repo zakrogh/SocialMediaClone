@@ -2,7 +2,7 @@ STRUCTURE:
 
 header
   nav bar
-  search box
+    search box
 
 profile
   header

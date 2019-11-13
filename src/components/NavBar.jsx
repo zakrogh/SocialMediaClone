@@ -1,4 +1,6 @@
 import React from 'react';
+import SearchBox from './SearchBox';
+import TweetBtn from './TweetBtn';
 
 function NavBar(){
   return (
@@ -14,7 +16,10 @@ function NavBar(){
             <a className="nav-item nav-link disabled" href="#">Disabled</a>
           </div>
         </div>
+        <SearchBox/>
+        <TweetBtn/>
       </nav>
+      <hr/>
     </div>
   );
 }
