@@ -6,6 +6,10 @@ function SearchBox(){
       <style global jsx>{`
           .search-box{
             float:right;
+            border-style: solid;
+            border-width: 2px;
+            border-color: lightblue;
+            border-radius: 10px;
           }
         `}</style>
       <form>

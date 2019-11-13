@@ -15,7 +15,7 @@ function App(){
             <Profile/>
             <Summary/>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-4">
             <MainBody/>
           </div>
           <div className="col-md-3">

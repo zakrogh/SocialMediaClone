@@ -6,9 +6,10 @@ function TweetBtn(){
       <style global jsx>{`
         #tweetbutton{
           border-radius:20px;
+          margin-left: 40px;
         }
       `}</style>
-      <button type="button" className="btn btn-info" id="tweetbutton" name="button">Tweet</button>
+      <button type="button" className="btn btn-outline-info" id="tweetbutton" name="button">Tweet</button>
     </div>
   );
 }
